@@ -1,0 +1,29 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pl:test": "playwright test",
+    "pl:testui": "playwright test --ui",
+    "pl:report": "playwright show-report",
+    "pl:update": "install -D @playwright/test@latest && playwright install --with-deps",
+    "pl:version": "playwright --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilipwam/PlayWright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dilipwam/PlayWright/issues"
+  },
+  "homepage": "https://github.com/dilipwam/PlayWright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}
