@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "pl:test": "playwright test",
+    "pl:example": "playwright test example.spec.js",
     "pl:testui": "playwright test --ui",
     "pl:report": "playwright show-report",
     "pl:update": "install -D @playwright/test@latest && playwright install --with-deps",
